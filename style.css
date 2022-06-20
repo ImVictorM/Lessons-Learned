@@ -20,7 +20,8 @@ body {
     color: white;
     height: 5%;
     z-index: 10;
-    /*solução para não bugar com width */
+
+    /* solução para não bugar com width */
     right: 0;
     left: 0;
 }
@@ -31,8 +32,14 @@ body {
     
 }
 #minha_foto {
-    width: 15%;
+    width: 25%;
+    border-radius: 15%;
 }
+#container-me {
+    text-align: center;
+    padding: 30px;
+}
+
 #rodape {
     text-align: center;
     background-color: rgb(4, 4, 43);
@@ -50,9 +57,16 @@ body {
     margin: 0;
     line-height: 50px;
 }
+table {
+    margin: auto;
+}
 td {
     border: 2px solid rgb(153, 153, 153);
-    text-align: center;
+    font-size: 40px;
+    width: 400px;
+    height: 40px;
+    font-weight: bold;
+    font-family: monospace;
 }
 .lado-esquerdo {
     width: 40%;
@@ -71,12 +85,21 @@ td {
     padding: 30px;
 }
 ul, ol {
-    /*reset nas listas*/
+
+    /* reset nas listas */
     padding: 0;
     margin: 0;
-    /*estilo*/
+
+    /* estilo */
     list-style-position: inside;
     width: 40%;
     margin: auto;
     text-align: start;
+}
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+a:hover {
+    color: rgb(107, 24, 184);
 }
