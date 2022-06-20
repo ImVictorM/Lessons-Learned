@@ -4,7 +4,7 @@ body {
     font-size: 20px;
     color: rgb(9, 9, 82);
     line-height: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
 }
 
 #container-conteudo {
@@ -32,7 +32,6 @@ body {
     text-align: center;
     margin: 10px;
     font-size: 35px;
-
 }
 
 #minha_foto {
@@ -73,7 +72,7 @@ td {
     font-size: 40px;
     width: 400px;
     height: 40px;
-    font-weight: bold;
+    font-weight: 700;
     font-family: monospace;
 }
 
@@ -101,7 +100,6 @@ ol {
 
     /* reset nas listas */
     padding: 0;
-    margin: 0;
 
     /* estilo */
     list-style-position: inside;
