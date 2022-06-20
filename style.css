@@ -13,7 +13,6 @@ body{
     background-color: rgb(235, 235, 235);
 }
 #cabecalho{
-    border: 3px solid red;
     position: fixed;
     top: 0;
     background-color: rgb(4, 4, 43);
@@ -34,7 +33,6 @@ body{
     width: 15%;
 }
 #rodape{
-    border: 3px solid red;
     text-align: center;
     background-color: rgb(4, 4, 43);
     color: white;
@@ -42,6 +40,13 @@ body{
     bottom: 0;
     right: 0;
     left: 0;
+    font-size: 30px;
+    padding: 10px;
+    height: 50px;
+}
+#rodape p{
+    margin: 0;
+    line-height: 50px;
 }
 td{
     border: 2px solid rgb(153, 153, 153);
