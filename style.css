@@ -1,4 +1,4 @@
-body{
+body {
     background-color: rgb(253, 251, 251);
     margin: 0px;
     font-size: 20px;
@@ -6,14 +6,14 @@ body{
     line-height: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#container-conteudo{
+#container-conteudo {
     width: 80%;
     margin: auto;
     margin-top: 80px;
     background-color: rgb(235, 235, 235);
     height: 100%;
 }
-#cabecalho{
+#cabecalho {
     position: fixed;
     top: 0;
     background-color: rgb(4, 4, 43);
@@ -24,16 +24,16 @@ body{
     right: 0;
     left: 0;
 }
-#cabecalho #titulo{
+#cabecalho #titulo {
     text-align: center;
     margin: 10px;
     font-size: 35px;
     
 }
-#minha_foto{
+#minha_foto {
     width: 15%;
 }
-#rodape{
+#rodape {
     text-align: center;
     background-color: rgb(4, 4, 43);
     color: white;
@@ -46,31 +46,31 @@ body{
     height: 50px;
     margin-top: 30px;
 }
-#rodape p{
+#rodape p {
     margin: 0;
     line-height: 50px;
 }
-td{
+td {
     border: 2px solid rgb(153, 153, 153);
     text-align: center;
 }
-.lado-esquerdo{
+.lado-esquerdo {
     width: 40%;
     float: left;
     margin: 30px;
 }
-.lado-direito{
+.lado-direito {
     width: 40%;
     float: right;
     margin: 30px;
 
 }
-#container-listas{
+#container-listas {
     clear: both;
     text-align: center;
     padding: 30px;
 }
-ul, ol{
+ul, ol {
     /*reset nas listas*/
     padding: 0;
     margin: 0;
