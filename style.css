@@ -14,9 +14,18 @@ body{
 }
 #cabecalho #titulo{
     text-align: center;
-    margin: 0px;
+    margin: 0;
     padding: 10px;
 }
 #minha_foto{
     width: 20%;
+}
+#rodape{
+    border: 3px solid red;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
