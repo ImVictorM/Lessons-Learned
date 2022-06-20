@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 0px;
+  background-color: rgb(253, 251, 251);
+    margin: 0;
     font-size: 20px;
     color: rgb(9, 9, 82);
     line-height: 25px;
@@ -95,8 +95,7 @@ td {
     padding: 30px;
 }
 
-ul,
-ol {
+ul, ol {
 
     /* reset nas listas */
     padding: 0;
